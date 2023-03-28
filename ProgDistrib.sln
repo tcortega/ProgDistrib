@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgDistrib.PrimeiraQuestao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgDistrib.TerceiraQuestao", "src\ProgDistrib.TerceiraQuestao\ProgDistrib.TerceiraQuestao.csproj", "{30485563-398A-4A4E-B7D4-397B36A6B08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgDistrib.QuartaQuestao", "ProgDistrib.QuartaQuestao\ProgDistrib.QuartaQuestao.csproj", "{5C255FC5-30A2-4F77-941F-E0B3B2BE3C8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgDistrib.QuartaQuestao", "src\ProgDistrib.QuartaQuestao\ProgDistrib.QuartaQuestao.csproj", "{5C255FC5-30A2-4F77-941F-E0B3B2BE3C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,12 +2,14 @@
 
 public static class SomaThread
 {
-    public static long Somar(int[] vetor, long inicio, long fim)
+    private static readonly object Lock = new();
+    public static void Somar(int[] vetor, long inicio, long fim, ref long alvoSoma)
     {
         long soma = 0;
         for (var i = inicio; i < fim; i++)
             soma += vetor[i];
 
-        return soma;
+        lock (Lock)
+            alvoSoma += soma;
     }
 }
